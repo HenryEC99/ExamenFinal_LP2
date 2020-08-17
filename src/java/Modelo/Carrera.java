@@ -11,7 +11,7 @@ public class Carrera {
     }
     public Carrera(int idcarrera, String nombre, String estado) {
         this.idcarrera = idcarrera;
-        this.nombre = nombre;;
+        this.nombre = nombre;
         this.estado = estado;
     }
 
