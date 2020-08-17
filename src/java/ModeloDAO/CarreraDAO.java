@@ -27,7 +27,7 @@ public class CarreraDAO implements CRUDcarrera{
             while (rs.next()) {
                 Carrera carrera = new Carrera();
                 carrera.setIdcarrera(rs.getInt("idcarrera"));
-                carrera.setNombre(rs.getString("nombre"));;
+                carrera.setNombre(rs.getString("nombre"));
                 carrera.setEstado(rs.getString("estado"));
                 carreras.add(carrera);
             }
